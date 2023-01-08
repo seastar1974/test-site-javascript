@@ -1,0 +1,94 @@
+html {
+    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: rgb(224, 224, 224);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1 px rgb(219, 12, 150);
+}
+
+h4 {
+    color: darkmagenta;
+}
+
+
+ul, ol {
+    color: blueviolet;
+}
+
+p, li {
+    color: magenta;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(224, 224, 224);
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+.flex-auto {
+    display: flex;
+    flex: 1 1 100px;
+    flex-flow: row;
+    align-items: center;
+}
+
+.empty-class {
+    color:black;
+    width: 15%;
+}
+
+.input-class {
+    padding-left: 5%;
+    color:rgb(23, 231, 145);
+    font-weight: bold;
+    width: 40%;
+}
+
+.button-div-class  {
+    padding-top: 20px;
+    align-content: center;
+    vertical-align:baseline;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.my-button {
+    height: fit-content;
+    width: 65%;
+} 
+
+.result-div-class {
+    color:rgb(23, 231, 145);
+    font-weight: bold;
+    width: 35%;
+}
+
+.result-class {
+    padding-left: 10%;
+}
+
+.my-textbox {
+    height: fit-content;
+    width: 250px;
+}
+
+.link-label {
+    color: blueviolet;
+    font-weight: bold;
+}
